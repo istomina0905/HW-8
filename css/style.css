@@ -17,3 +17,31 @@ div + h3 + p {
 div > h3:first-child {
     color:pink; 
 }
+
+caption{
+    color: red;
+}
+
+caption:hover{
+    color: blue;
+}
+
+caption:active{
+    transform: scale(1.5);
+}
+
+th{
+   background-color: aquamarine; 
+}
+
+th:nth-child(even){
+    background-color: brown;
+}
+
+td{
+    background-color: blue;
+}
+
+td:nth-child(3n){
+    background-color: blueviolet;
+}
